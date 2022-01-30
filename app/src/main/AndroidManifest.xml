@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationComponent">
         <activity
-            android:name=".MainActivity"
+            android:name=".bottom_navagtion.BottomNaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_navagtion.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".navgation_drawer.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

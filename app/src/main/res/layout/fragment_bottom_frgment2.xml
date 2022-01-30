@@ -3,17 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
-    tools:context=".navgation_drawer.FirstFragment">
+    tools:context=".bottom_navagtion.Bottom_frgment2">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/text_view1"
-        android:gravity="center"
-        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="30dp"
-        android:text="@string/hello_blank_fragment1" />
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
