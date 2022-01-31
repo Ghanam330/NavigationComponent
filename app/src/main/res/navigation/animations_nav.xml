@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animations_nav"
+    app:startDestination="@id/animationsFragmentHome">
+
+    <fragment
+        android:id="@+id/animationsFragment1"
+        android:name="com.example.navigationcomponent.Animations.AnimationsFragment1"
+        android:label="fragment_animations1"
+        tools:layout="@layout/fragment_animations1" >
+        <action
+            android:id="@+id/action_animationsFragment1_to_animationsFragmentHome"
+            app:destination="@id/animationsFragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/animationsFragment2"
+        android:name="com.example.navigationcomponent.Animations.AnimationsFragment2"
+        android:label="fragment_animations2"
+        tools:layout="@layout/fragment_animations2" >
+        <action
+            android:id="@+id/action_animationsFragment2_to_animationsFragmentHome"
+            app:destination="@id/animationsFragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/animationsFragmentHome"
+        android:name="com.example.navigationcomponent.Animations.AnimationsFragmentHome"
+        android:label="fragment_animations_home"
+        tools:layout="@layout/fragment_animations_home" >
+        <action
+            android:id="@+id/action_animationsFragmentHome_to_animationsFragment1"
+            app:destination="@id/animationsFragment1"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+        <action
+            android:id="@+id/action_animationsFragmentHome_to_animationsFragment2"
+            app:destination="@id/animationsFragment2" />
+    </fragment>
+</navigation>

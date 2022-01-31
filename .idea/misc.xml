@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/activity_animations.xml" value="0.22826086956521738" />
         <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/activity_bottom_na.xml" value="0.22826086956521738" />
         <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/fragment_animations1.xml" value="0.22826086956521738" />
+        <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/fragment_animations2.xml" value="0.22826086956521738" />
+        <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/fragment_animations_home.xml" value="0.22826086956521738" />
         <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/fragment_first.xml" value="0.22826086956521738" />
         <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/layout/fragment_secound.xml" value="0.22826086956521738" />
         <entry key="..\:/KotlinProject/Navigation Component/app/src/main/res/menu/bottom_menue.xml" value="0.25416666666666665" />
